@@ -1,0 +1,51 @@
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background-color: #fff;
+  border: 1px solid #e2e4e9;
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  min-width: 480px;
+  border-collapse: collapse;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 0.875rem;
+}
+
+.table thead th {
+  text-align: left;
+  padding: 0.9rem 1.25rem;
+  font-size: 0.85rem;
+  color: #111827;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e4e9;
+  white-space: nowrap;
+  font-weight: bolder;
+}
+
+.table tbody td {
+  text-align: left;
+  padding: 0.9rem 1.25rem;
+  color: #111827e9;
+  font-weight: bold;
+  border-bottom: 1px solid #edeef1;
+  white-space: nowrap;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table tbody tr {
+  transition: background-color 0.15s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f9fafb;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #f3f4f6;
+}
